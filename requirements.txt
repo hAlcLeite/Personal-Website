@@ -1,0 +1,19 @@
+# System Requirements
+Node.js>=14.0.0
+npm>=6.0.0 or pnpm>=7.0.0 or yarn>=1.22.0
+
+# Required Tools
+Git>=2.0.0
+
+# Minimum System Requirements
+RAM>=4GB
+Storage>=1GB free space
+CPU>=2 cores
+
+# Browser Requirements
+Modern web browser with JavaScript enabled
+Chrome>=80 or Firefox>=75 or Safari>=13 or Edge>=80
+
+# Optional but Recommended
+VS Code or similar code editor
+GitHub account (for deployment) 
