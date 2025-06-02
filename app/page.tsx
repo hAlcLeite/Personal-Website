@@ -586,7 +586,11 @@ export default function Home() {
                         </Badge>
                       ))}
                     </div>
-                    <Link href="#" target="_blank" className="text-primary hover:text-primary/80">
+                    <Link
+                      href="https://github.com/hAlcLeite/Personal-Website"
+                      target="_blank"
+                      className="text-primary hover:text-primary/80"
+                    >
                       <ExternalLink className="h-4 w-4" />
                     </Link>
                   </CardFooter>
