@@ -19,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "experience", "projects", "extracurriculars", "contact"]
+      const sections = ["home", "about", "work-experience", "projects", "technical-skills", "extracurriculars", "contact"]
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -69,7 +69,7 @@ export default function Home() {
             HL
           </Link>
           <div className="hidden md:flex space-x-6 items-center">
-            {["About", "Work Experience", "Projects", "Extracurriculars", "Contact"].map((item) => (
+            {["About", "Work Experience", "Projects", "Technical Skills", "Extracurriculars", "Contact"].map((item) => (
               <Link
                 key={item}
                 href={`#${item.toLowerCase().replace(" ", "-")}`}
@@ -155,7 +155,7 @@ export default function Home() {
                 <p>
                   <span className="font-medium text-foreground/80">Interests:</span> Machine Learning & AI,
                   Cybersecurity, Weightlifting, Golf, American Football, Grunge & Classic Rock, Ancient History, Star
-                  Wars, Dune
+                  Wars, Dune.
                 </p>
               </div>
             </div>
@@ -651,6 +651,55 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Tech Stack Section */}
+      <section id="tech-stack" className="py-20 bg-muted/50">
+        <div className="container mx-auto px-4">
+          <BlurFade>
+            <h2 className="text-3xl font-bold mb-8 text-center">Technical Skills</h2>
+            <div className="bg-background/50 backdrop-blur-sm border border-primary/20 rounded-lg p-8 max-w-4xl mx-auto">
+              <div className="text-foreground/80 space-y-4">
+                <div>
+                  <h3 className="font-bold">Languages:</h3>
+                  <p>Python, Java, C, SQL, JavaScript, TypeScript, R, VBA</p>
+                </div>
+                <div>
+                  <h3 className="font-bold">Frontend:</h3>
+                  <p>HTML/CSS, JavaScript, React.js</p>
+                </div>
+                <div>
+                  <h3 className="font-bold">Backend:</h3>
+                  <p>Python, Java, C, Node.js, Flask, FastAPI</p>
+                </div>
+                 <div>
+                  <h3 className="font-bold">Frameworks:</h3>
+                  <p>Next.js, TailwindCSS, Framer Motion</p>
+                </div>
+                <div>
+                  <h3 className="font-bold">Machine Learning & AI:</h3>
+                  <p>PyTorch, scikit-learn, Hugging Face</p>
+                </div>
+                <div>
+                  <h3 className="font-bold">Data Science & Analytics:</h3>
+                  <p>Pandas, NumPy, Streamlit, Google Analytics, Kaggle</p>
+                </div>
+                <div>
+                  <h3 className="font-bold">Data Visualization:</h3>
+                  <p>Excel, PowerBI, R, Matplotlib</p>
+                </div>
+                 <div>
+                  <h3 className="font-bold">Design:</h3>
+                  <p>Figma, Canva</p>
+                </div>
+                <div>
+                  <h3 className="font-bold">Tools & Methodologies:</h3>
+                  <p>UNIX, VS Code, Git, GitHub, Gitlab, Agile, Scrum, Jira, RESTful APIs, Docker, MS Access</p>
+                </div>
+              </div>
+            </div>
+          </BlurFade>
+        </div>
+      </section>
+
       {/* Extracurriculars Section */}
       <section id="extracurriculars" className="py-20 bg-background">
         <div className="container mx-auto px-4">
@@ -1130,21 +1179,6 @@ export default function Home() {
                 >
                   <Mail className="h-5 w-5 text-primary-foreground" />
                   <span className="text-primary-foreground">Email</span>
-                </ShimmerButton>
-              </Link>
-
-              <Link
-                href="https://www.instagram.com/henriquealcleite?igsh=MXczZTZpMnhvenEzdA%3D%3D&utm_source=qr"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ShimmerButton
-                  background="hsl(var(--primary))"
-                  shimmerColor="hsl(var(--primary-foreground))"
-                  className="flex items-center gap-2 hover:bg-pink-600 transition-colors duration-300"
-                >
-                  <Instagram className="h-5 w-5 text-primary-foreground" />
-                  <span className="text-primary-foreground">Instagram</span>
                 </ShimmerButton>
               </Link>
             </div>
