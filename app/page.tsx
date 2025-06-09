@@ -139,8 +139,7 @@ export default function Home() {
                   learning, and automation.
                 </p>
                 <p>
-                  Professionally, I'm a Global Wealth Management Intern at Scotiabank, where I build Python tools and
-                  Excel automations to streamline compliance and lead generation workflows. Previously, I worked at
+                  Professionally, I'm a Global Wealth Management Intern at Scotiabank, where I'm currently developing Excel Macros and VBA scripts to automate manual compliance and client onboarding processes, with the goal of streamlining operations and reducing the team's administrative workload. Previously, I worked at
                   Autumn, helping shape growth strategy through market sizing and financial modeling.
                 </p>
                 <p>
@@ -194,19 +193,15 @@ export default function Home() {
                   <CardContent>
                     <CardDescription className="text-foreground/80 mt-2 space-y-2">
                       <p>
-                        Developed Excel Macros and VBA scripts to automate manual compliance and client onboarding
-                        processes, resulting in a collective time savings of over 1 hour per day for the team.
+                        Currently developing Excel Macros and VBA scripts to automate manual compliance and client onboarding processes, 
+                        with the goal of streamlining operations and reducing the team's administrative workload.
                       </p>
                       <p>
-                        Engineered Python-based web scraping tools to aggregate and qualify new client leads from public
+                        Engineering Python-based web scraping tools to aggregate and qualify new client leads from public
                         financial registries and business directories, enhancing the efficiency of outreach campaigns.
                       </p>
                       <p>
-                        Integrated external financial data into internal pipelines, supporting data-driven wealth
-                        management strategies.
-                      </p>
-                      <p>
-                        Conducted in-depth research on fixed income investment strategies, analyzing yield curves,
+                        Conducting in-depth research on fixed income investment strategies, analyzing yield curves,
                         credit spreads, and duration to inform portfolio construction and risk management decisions.
                       </p>
                     </CardDescription>
@@ -427,7 +422,7 @@ export default function Home() {
                     </div>
                     <CardDescription className="text-foreground/80 mt-2 space-y-2">
                       <p>
-                        Developed as part of the Design and Innovation Challenge hosted by Western University
+                        Developed as part of the Automotive Innovation Challenge hosted by Western University
                         Engineering Faculty and sponsored by General Motors.
                       </p>
                       <p>
@@ -1049,10 +1044,6 @@ export default function Home() {
                             <p>
                               Benchmarked Venn's product suite against leading competitors (e.g., Wise, Brex, Float),
                               identifying feature gaps and value-added service opportunities.
-                            </p>
-                            <p>
-                              Delivered strategic recommendations on go-to-market tactics and positioning, contributing
-                              to Venn's successful $21.5M Series A funding round.
                             </p>
                             <p>
                               Collaborated in client communications, report development, and final presentations to
