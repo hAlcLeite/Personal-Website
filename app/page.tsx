@@ -469,7 +469,7 @@ export default function Home() {
                   <CardContent className="flex-grow">
                     <div className="mb-4 overflow-hidden rounded-md">
                       <Image
-                        src="/images/bus-prediction-chart.png"
+                        src="/images/webpage-ltc.png"
                         alt="Bus Prediction Analytics Dashboard"
                         width={400}
                         height={200}
