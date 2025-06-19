@@ -135,11 +135,12 @@ export default function Home() {
             <div className="bg-background/50 backdrop-blur-sm border border-primary/20 rounded-lg p-8 max-w-4xl mx-auto">
               <div className="text-foreground/80 space-y-4">
                 <p>
-                  I'm a 19-year-old Computer Science student at Western University, specializing in AI, machine
-                  learning, and automation.
+                  I'm 20 years old and I'm going into my 3rd year in Computer Science student at Western University, specializing in AI, machine
+                  learning.
                 </p>
                 <p>
-                  Professionally, I'm a Global Wealth Management Intern at Scotiabank, where I'm currently developing Excel Macros and VBA scripts to automate manual compliance and client onboarding processes, with the goal of streamlining operations and reducing the team's administrative workload. Previously, I worked at
+                  Professionally, I'm a Global Wealth Data Analyst at Scotiabank, where I'm currently developing Power BI dashboards, as well as Excel Macros and VBA scripts to automate manual compliance 
+                  and client onboarding processes, with the goal of streamlining operations and reducing the team's administrative workload. Previously, I worked at
                   Autumn, helping shape growth strategy through market sizing and financial modeling.
                 </p>
                 <p>
@@ -181,7 +182,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="space-y-1 flex-1">
-                      <CardTitle className="text-xl font-bold">Global Wealth Management Intern</CardTitle>
+                      <CardTitle className="text-xl font-bold">Global Wealth Data Analyst</CardTitle>
                       <p className="text-muted-foreground">Scotiabank</p>
                       <div className="flex items-center gap-1 text-sm text-muted-foreground">
                         <MapPin className="h-3 w-3" />
@@ -201,6 +202,10 @@ export default function Home() {
                         financial registries and business directories, enhancing the efficiency of outreach campaigns.
                       </p>
                       <p>
+                        Engineered Power BI dashboards integrating Charles River data, enabling real-time visualization 
+                        of portfolio exposures and reducing risk analysis time by 30%.
+                      </p>
+                      <p>
                         Conducting in-depth research on fixed income investment strategies, analyzing yield curves,
                         credit spreads, and duration to inform portfolio construction and risk management decisions.
                       </p>
@@ -208,7 +213,7 @@ export default function Home() {
                   </CardContent>
                   <CardFooter>
                     <div className="flex flex-wrap gap-2">
-                      {["Excel", "VBA", "Python", "Web Scraping", "Financial Modeling", "Fixed Income"].map((tag) => (
+                      {["Excel", "VBA", "Python", "Web Scraping", "Power BI", "Financial Modeling", "Fixed Income"].map((tag) => (
                         <Badge key={tag} variant="outline" className="bg-background/50 text-primary border-primary/30">
                           {tag}
                         </Badge>
