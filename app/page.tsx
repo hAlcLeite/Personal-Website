@@ -500,7 +500,7 @@ export default function Home() {
                       ))}
                     </div>
                     <Link
-                      href="https://ltc-bus-webui.ethanpisani.com/"
+                      href="https://github.com/WesternDeveloperSociety/WDS_LTC_BUS"
                       target="_blank"
                       className="text-primary hover:text-primary/80"
                     >
